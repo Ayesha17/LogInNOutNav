@@ -14,5 +14,13 @@ namespace LogInNOutNav
             App.IsLoggedIn = false;
             Navigation.PopToRootAsync();
         }
+        public void OnHome(object sender, EventArgs args)
+        {
+            Navigation.PopToRootAsync();
+        }
+        public void OnFirst(object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new FirstPage());            
+        }
     }
 }

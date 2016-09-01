@@ -23,6 +23,10 @@ namespace LogInNOutNav
                 var vLoginPage = new LoginPage();
                 Navigation.InsertPageBefore(vLoginPage, this);
                 Navigation.PopAsync(); }
+            else
+            {
+               
+            }
         }
     }
 }

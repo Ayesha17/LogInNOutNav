@@ -4,6 +4,8 @@
              x:Class="LogInNOutNav.FourthPage">
   <StackLayout>
     <Label Text="Fourth Page" VerticalOptions="Center" HorizontalOptions="Center" />
+    <Button Text="Go Back to Home" Clicked="OnHome" />
+    <Button Text="Go Back to First" Clicked="OnFirst" />
     <Button Text="Log Out" Clicked="OnLogOut" />
   </StackLayout>
  
